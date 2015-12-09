@@ -1,0 +1,14 @@
+E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\bin\Debug\ChangedFileInPublishedWeb.pdb
+E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll
+E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\bin\Debug\Microsoft.WITDataStore.dll
+E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\obj\Debug\ChangedFileInPublishedWeb.pdb
+E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\bin\Debug\log4net.dll
+E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\bin\Debug\log4net.xml
+E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\bin\Debug\Config\log4net.config
+E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\bin\Debug\App.config
+E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\bin\Debug\Bat\buildweb.xml
+E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\bin\Debug\Bat\build.bat
+E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\obj\Debug\ChangedFileInPublishedWeb.csprojResolveAssemblyReference.cache
+E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\bin\Debug\ChangedFileInPublishedWeb.exe.config
+E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\bin\Debug\ChangedFileInPublishedWeb.exe
+E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\obj\Debug\ChangedFileInPublishedWeb.exe

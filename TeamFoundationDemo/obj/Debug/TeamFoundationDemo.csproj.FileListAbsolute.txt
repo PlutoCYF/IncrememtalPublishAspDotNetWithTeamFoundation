@@ -1,0 +1,7 @@
+E:\myproject\TeamFoundationDemo\TeamFoundationDemo\bin\Debug\TeamFoundationDemo.exe
+E:\myproject\TeamFoundationDemo\TeamFoundationDemo\bin\Debug\TeamFoundationDemo.pdb
+E:\myproject\TeamFoundationDemo\TeamFoundationDemo\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll
+E:\myproject\TeamFoundationDemo\TeamFoundationDemo\bin\Debug\Microsoft.WITDataStore.dll
+E:\myproject\TeamFoundationDemo\TeamFoundationDemo\obj\Debug\TeamFoundationDemo.csprojResolveAssemblyReference.cache
+E:\myproject\TeamFoundationDemo\TeamFoundationDemo\obj\Debug\TeamFoundationDemo.exe
+E:\myproject\TeamFoundationDemo\TeamFoundationDemo\obj\Debug\TeamFoundationDemo.pdb
