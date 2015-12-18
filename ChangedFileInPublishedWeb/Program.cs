@@ -23,14 +23,21 @@ namespace ChangedFileInPublishedWeb
                     Console.WriteLine(arg);
                 }
             }
+            //var InstallDir = Microsoft.Win32.Registry.GetValue("HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\VisualStudio\\10.0\\Setup\\VS",
+            //    "EnvironmentDirectory", null);
+            //Console.WriteLine("vs path:" + InstallDir.ToString());
+
+            //Console.ReadKey();
+            //Console.WriteLine("start call bat:" + batbuild);
             //BatHelper.callBat(batbuild);
+            //Console.WriteLine("end call bat");
             //string str = Convert.ToString(@"Index.aspx".GetHashCode(), 16);
-            TeamFoundationHelper helper = new TeamFoundationHelper(path);
-            var historylist = helper.GetHistorys(387736);
+            //TeamFoundationHelper helper = new TeamFoundationHelper(path);
+            //var historylist = helper.GetHistorys(387736);
 
 
 
-            FileHelper.UpdatePublishFiles(publish, updatepath, historylist);
+            //FileHelper.UpdatePublishFiles(publish, updatepath, historylist);
         }
 
     }

@@ -8,7 +8,7 @@ E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\bin\Debug\Config\log4n
 E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\bin\Debug\App.config
 E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\bin\Debug\Bat\buildweb.xml
 E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\bin\Debug\Bat\build.bat
-E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\obj\Debug\ChangedFileInPublishedWeb.csprojResolveAssemblyReference.cache
 E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\bin\Debug\ChangedFileInPublishedWeb.exe.config
 E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\bin\Debug\ChangedFileInPublishedWeb.exe
 E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\obj\Debug\ChangedFileInPublishedWeb.exe
+E:\myproject\TeamFoundationDemo\ChangedFileInPublishedWeb\obj\Debug\ChangedFileInPublishedWeb.csprojResolveAssemblyReference.cache

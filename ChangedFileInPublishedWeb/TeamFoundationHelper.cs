@@ -48,6 +48,7 @@ namespace ChangedFileInPublishedWeb
             QueryHistoryParameters ps = new QueryHistoryParameters(itemSpec);
 
             ps.VersionStart = VersionSpec.ParseSingleSpec("C" + version.ToString(), null);
+            
             ps.Author = author;// @"TECH\chenyf";
             ps.IncludeChanges = true;
             var historys = sourcecontrol.QueryHistory(ps);

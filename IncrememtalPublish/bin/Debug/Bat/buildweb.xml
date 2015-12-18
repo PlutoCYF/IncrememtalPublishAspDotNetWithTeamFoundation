@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <Target Name="PrecompileWeb">
-    <AspNetCompiler VirtualPath="/MyWebSite" PhysicalPath="E:\work\bitauto\爱易车\src\iBitauto.root\iBitauto2.0-Coupon\i.qichetong.com" TargetPath="E:\myproject\msbuild\publish" Force="true" Debug="false" Clean="true" Updateable="true" FixedNames="True" />
+    <AspNetCompiler VirtualPath="/MyWebSite" PhysicalPath="E:\work\bitauto\爱易车\src\iBitauto.root\iBitauto2.0-develop\m.qichetong.com" TargetPath="E:\发布\m.yiche.com" Force="true" Debug="false" Clean="true" Updateable="true" FixedNames="True" />
   </Target>
 </Project>

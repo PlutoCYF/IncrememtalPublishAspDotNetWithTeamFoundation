@@ -55,7 +55,6 @@ namespace ChangedFileInPublishedWeb
                     //        updatefileinfolist.Add(updateFile);
                     //        break;
                     //    }
-
                     //}
                     if (publishBinDic.ContainsKey(dllname))
                     {
@@ -94,18 +93,24 @@ namespace ChangedFileInPublishedWeb
         {
             string result = "";
             string fullpath = publispath + @"\" + path.Replace(ex, "");
-
-            System.IO.StreamReader reader = new System.IO.StreamReader(fullpath);
-            string firstline = "";
-            while (firstline.Length == 0)
+            if (System.IO.File.Exists(fullpath))
             {
-                firstline = reader.ReadLine();
+                System.IO.StreamReader reader = new System.IO.StreamReader(fullpath);
+                string firstline = "";
+                while (firstline.Length == 0)
+                {
+                    firstline = reader.ReadLine();
+                }
+
+                System.Text.RegularExpressions.Regex re = new System.Text.RegularExpressions.Regex("inherits=\"(.*),(.*)\"(.*)%>");
+                if (re.IsMatch(firstline))
+                {
+                    result = @"/bin/" + re.Match(firstline).Groups[2].Value.Trim() + ".dll";
+                }
             }
-
-            System.Text.RegularExpressions.Regex re = new System.Text.RegularExpressions.Regex("inherits=\"(.*),(.*)\"(.*)%>");
-            if (re.IsMatch(firstline))
+            else
             {
-                result = @"/bin/" + re.Match(firstline).Groups[2].Value.Trim() + ".dll";
+                result = @"/bin/App_Code.dll";
             }
             return result.ToLower();
         }

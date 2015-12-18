@@ -1,7 +1,6 @@
 E:\myproject\TeamFoundationDemo\IncrememtalPublish\bin\Debug\Config\log4net.config
 E:\myproject\TeamFoundationDemo\IncrememtalPublish\bin\Debug\IncrememtalPublish.exe
 E:\myproject\TeamFoundationDemo\IncrememtalPublish\bin\Debug\IncrememtalPublish.pdb
-E:\myproject\TeamFoundationDemo\IncrememtalPublish\bin\Debug\ChangedFileInPublishedWeb.dll
 E:\myproject\TeamFoundationDemo\IncrememtalPublish\bin\Debug\log4net.dll
 E:\myproject\TeamFoundationDemo\IncrememtalPublish\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll
 E:\myproject\TeamFoundationDemo\IncrememtalPublish\bin\Debug\ChangedFileInPublishedWeb.pdb
@@ -16,3 +15,4 @@ E:\myproject\TeamFoundationDemo\IncrememtalPublish\obj\Debug\IncrememtalPublish.
 E:\myproject\TeamFoundationDemo\IncrememtalPublish\bin\Debug\Bat\buildweb.xml
 E:\myproject\TeamFoundationDemo\IncrememtalPublish\bin\Debug\App.config
 E:\myproject\TeamFoundationDemo\IncrememtalPublish\bin\Debug\Bat\build.bat
+E:\myproject\TeamFoundationDemo\IncrememtalPublish\bin\Debug\ChangedFileInPublishedWeb.exe

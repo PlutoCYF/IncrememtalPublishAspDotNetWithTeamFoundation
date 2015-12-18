@@ -15,11 +15,11 @@ namespace ChangedFileInPublishedWeb
             FileInfo file = new FileInfo(batPath);
             p.StartInfo.WorkingDirectory = file.Directory.FullName;
             p.StartInfo.FileName = batPath;
-            p.StartInfo.UseShellExecute = false;
-            p.StartInfo.RedirectStandardInput = true;
-            p.StartInfo.RedirectStandardOutput = true;
-            p.StartInfo.RedirectStandardError = true;
-            p.StartInfo.CreateNoWindow = false;
+            //p.StartInfo.UseShellExecute = false;
+            //p.StartInfo.RedirectStandardInput = true;
+            //p.StartInfo.RedirectStandardOutput = true;
+            //p.StartInfo.RedirectStandardError = true;
+            //p.StartInfo.CreateNoWindow = true;
             p.StartInfo.ErrorDialog = true;
             
             p.Start();

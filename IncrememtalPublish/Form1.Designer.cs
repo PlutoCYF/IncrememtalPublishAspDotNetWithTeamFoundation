@@ -46,6 +46,7 @@
             this.txt_publish.Name = "txt_publish";
             this.txt_publish.Size = new System.Drawing.Size(611, 21);
             this.txt_publish.TabIndex = 0;
+            this.txt_publish.Text = "E:\\发布\\m.yiche.com";
             this.txt_publish.TextChanged += new System.EventHandler(this.txt_publish_TextChanged);
             // 
             // txt_physical
@@ -54,6 +55,7 @@
             this.txt_physical.Name = "txt_physical";
             this.txt_physical.Size = new System.Drawing.Size(611, 21);
             this.txt_physical.TabIndex = 1;
+            this.txt_physical.Text = "E:\\work\\bitauto\\爱易车\\src\\iBitauto.root\\iBitauto2.0-develop\\m.qichetong.com";
             this.txt_physical.TextChanged += new System.EventHandler(this.txt_physical_TextChanged);
             // 
             // txt_update
@@ -62,6 +64,7 @@
             this.txt_update.Name = "txt_update";
             this.txt_update.Size = new System.Drawing.Size(611, 21);
             this.txt_update.TabIndex = 2;
+            this.txt_update.Text = "E:\\myproject\\msbuild\\copy";
             this.txt_update.TextChanged += new System.EventHandler(this.txt_update_TextChanged);
             // 
             // label1
@@ -97,6 +100,7 @@
             this.txt_version.Name = "txt_version";
             this.txt_version.Size = new System.Drawing.Size(611, 21);
             this.txt_version.TabIndex = 6;
+            this.txt_version.Text = "387736";
             this.txt_version.TextChanged += new System.EventHandler(this.txt_version_TextChanged);
             // 
             // label4

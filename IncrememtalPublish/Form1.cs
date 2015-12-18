@@ -14,13 +14,21 @@ namespace IncrememtalPublish
         public Form1()
         {
             InitializeComponent();
+            publishPath = txt_publish.Text;
+            physicalPath = txt_physical.Text;
+            updatePath = txt_update.Text;
+            int v = 0;
+            if (int.TryParse(txt_version.Text, out v))
+            {
+                version = v;
+            }
         }
         public Form1(string[] args):this()
         {
             
         }
-        private string physicalPath=@"E:\work\bitauto\爱易车\src\iBitauto.root\iBitauto2.0-Coupon\i.qichetong.com", updatePath=@"E:\myproject\msbuild\copy", publishPath=@"E:\myproject\msbuild\publish";
-        private int version = 333388;
+        private string physicalPath = "", updatePath = "", publishPath = "";
+        private int version = 387736;
 
         private void button1_Click(object sender, EventArgs e)
         {
