@@ -7,7 +7,7 @@ using System.Text;
 
 namespace ChangedFileInPublishedWeb
 {
-    public class TeamFoundationHelper
+    public class TeamFoundationHelper : IVersion
     {
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger("TFSInfo");
         public VersionControlServer SourceControl { get; private set; }
