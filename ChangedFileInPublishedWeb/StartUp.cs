@@ -35,8 +35,9 @@ namespace ChangedFileInPublishedWeb
         /// <param name="version"></param>
         public static void StartWithoutPublish(string physicalPath, string updatePath, string publishPath, int version)
         {
-            TeamFoundationHelper helper = new TeamFoundationHelper(physicalPath);
-            var historylist = helper.GetHistorys(version);
+            //TeamFoundationHelper helper = new TeamFoundationHelper(physicalPath);
+            IVersion versionProduct= TeamFoundationFactory.GetVersion(physicalPath);
+            var historylist = versionProduct.GetHistorys(version);
             FileHelper.UpdatePublishFiles(publishPath, updatePath, historylist);
         }
     }
