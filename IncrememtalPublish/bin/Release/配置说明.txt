@@ -1,0 +1,3 @@
+记事本打开 Bat/build.bat  修改第一行 D:\soft\vs2012 替换为你的vs安装路径
+
+然后启动 IncrememtalPublish.exe
